@@ -6,7 +6,9 @@ namespace DotnetTutorials
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string response = "Pythagoras";
+
+            Console.WriteLine($"Hello World! - {response}");
         }
     }
 }
