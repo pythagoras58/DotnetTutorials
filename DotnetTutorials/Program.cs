@@ -13,7 +13,8 @@ namespace DotnetTutorials
             //Operating system
             OperatingSystem thisOs = Environment.OSVersion;
 
-            Console.WriteLine($"Operating System Version - {thisOs}");
+            Console.WriteLine($"Operating System Platform - {thisOs.Platform}");
+            Console.WriteLine($"Operating System Version - {thisOs.Version}");
         }
     }
 }
